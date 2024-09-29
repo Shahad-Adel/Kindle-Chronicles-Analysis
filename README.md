@@ -1,6 +1,6 @@
 # Kindle-Chronicles-Analysis
 Overview
-This project focuses on analyzing a dataset of Kindle books using SQL. The dataset includes attributes like title, author, soldBy, stars, price, isKindleUnlimited, isBestSeller, Genre, and publishedYear. The primary goal is to derive insights from the dataset by exploring genre distributions, price and rating correlations, bestseller trends, and more.
+This project focuses on analyzing a dataset of Kindle books using SQL. The primary goal is to derive insights from the dataset by exploring genre distributions, price and rating correlations, bestseller trends, and more.
 
 Key Features:
 Genre analysis: distribution of books across different genres.
@@ -10,21 +10,21 @@ Yearly trends: analyzing the trend of book publications over time for various ge
 Dataset
 The dataset used for this project includes the following columns:
 
-title: Name of the book.
-author: Author of the book.
-soldBy: The entity selling the book.
-stars: The average star rating.
-price: Price of the book.
-isKindleUnlimited: Indicates whether the book is part of the Kindle Unlimited program (True/False).
-isBestSeller: Indicates whether the book is a bestseller (True/False).
-Genre: Genre of the book (e.g., Fantasy, Thriller, Nonfiction).
-publishedYear: Year when the book was published.
+title
+author
+soldBy
+stars
+price
+isKindleUnlimited
+isBestSeller
+Genre
+publishedYear
 
 Technologies Used
 Excel: For initial data cleaning.
-Python: Used for data cleaning and pre-processing.
+Python: Used for data cleaning.
 SQL: All data analysis and queries are performed using SQL.
-Power BI: For visualizing the insights derived from the analysis.
+Power BI: For visualizing the insights.
 
 Analysis Performed
 1. Genre Distribution
